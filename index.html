@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Protected</title>
+
+<script>
+document.addEventListener("contextmenu", e => e.preventDefault());
+
+document.onkeydown = function(e) {
+if(e.key == "PrintScreen") {
+alert("Screenshot taqiqlangan");
+}
+};
+</script>
+
+</head>
+
+<body style="background:black;color:white;text-align:center;margin-top:100px;">
+
+<h1>Kontent himoyalangan</h1>
+<p>Bu sahifa orqali kontent ko'riladi</p>
+
+</body>
+</html>
